@@ -6,6 +6,7 @@ import Testimonials from "./components/Testimonials";
 import MyPage from "./components/MyPage";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
+import getCurrentDate from "./common/utils";
 
 const App = () => {
   return (
@@ -18,6 +19,10 @@ const App = () => {
       <Experience />
       <MyPage />
       <Contact />
+      <footer className="p-3 text-center">
+        <h6 className="mb-3">Belay Birhanu G</h6>
+        <p>Microverse © All CopyRights Reserved {getCurrentDate()}</p>
+      </footer>
     </div>
   );
 }
