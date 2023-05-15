@@ -68,10 +68,10 @@ const Skills = () => {
 
     {/* content */}
     <div className="md:container px-5  py-14">
-      <h2 className="title" data-aos="fade-down">
+      <h2 className="title md:text-center" data-aos="fade-down">
         {skills.title}
       </h2>
-      <h4 className="subtitle" data-aos="fade-down">
+      <h4 className="subtitle md:text-center" data-aos="fade-down">
         {skills.subtitle}
       </h4>
       <br />
@@ -89,7 +89,7 @@ const Skills = () => {
               <img
                 src={skill.logo}
                 alt="..."
-                className="w-10 group-hover:scale-125 duration-200"
+                className="w-12 group-hover:scale-125 duration-200"
               />
             </div>
             <div>

@@ -18,9 +18,13 @@ import services_logo2 from "../assets/services/logo2.png";
 import services_logo3 from "../assets/services/logo3.png";
 
 import project1 from "../assets/Projects/img1.png";
-import project2 from "../assets/Projects/img2.png";
-import project3 from "../assets/Projects/img3.png";
+import spaceTraveler from "../assets/Projects/space_traveler.png";
 import person_project from "../assets/Projects/person4.png";
+import budgetApp from "../assets/Projects/budget-app_reduced.jpg";
+import MovieApp from "../assets/Projects/MovieApp.png";
+import bookStore from "../assets/Projects/bookStore.jpeg";
+
+
 
 import Diego from '../assets/testimonials/Diego.jpeg'
 import Glenda from '../assets/testimonials/Glenda.jpeg'
@@ -39,6 +43,7 @@ import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
+import { SiCountingworkspro } from "react-icons/si";
 
 export const content = {
   nav: [
@@ -58,13 +63,18 @@ export const content = {
       link: "#projects",
       icon: RiProjectorLine,
     },
+    
     {
       link: "#contact",
       icon: MdOutlinePermContactCalendar,
     },
+    {
+      link: "#experience",
+      icon: SiCountingworkspro
+    },
   ],
   hero: {
-    title: "Web Developer",
+    title: "Full-stack Developer",
     firstName: "Belay Birhanu",
     LastName: "Gibina",
     btnText: "Hire Me",
@@ -72,7 +82,7 @@ export const content = {
     hero_content: [
       {
         count: "1+",
-        text: "Years of Experience in Web development",
+        text: "Years of Experience in Full-stack Web development",
       },
       {
         count: "20+",
@@ -86,22 +96,22 @@ export const content = {
     skills_content: [
       {
         name: "React js",
-        para: "Lorem ipsum text  dummy",
+        para: "Experienced",
         logo: reactJs,
       },
       {
         name: "Figma",
-        para: "Lorem ipsum text  dummy",
+        para: "Experienced",
         logo: figma,
       },
       {
         name: "Node js",
-        para: "Lorem ipsum text  dummy",
+        para: "Experienced",
         logo: nodejs,
       },
       {
         name: "Redux",
-        para: "Lorem ipsum text  dummy",
+        para: "Experienced",
         logo: redux,
       },
       {
@@ -111,37 +121,37 @@ export const content = {
       },
       {
         name: "Python",
-        para: "Lorem ipsum text  dummy",
+        para: "Experienced",
         logo: python,
       },
       {
         name: "Ruby on Rails",
-        para: "Lorem ipsum text  dummy",
+        para: "Experienced",
         logo: ror,
       },
       {
         name: "Web frontend",
-        para: "Lorem ipsum text  dummy",
+        para: "Experienced",
         logo: htmlCssJs,
       },
       {
-        name: "Tailwind, Sass, ant D",
-        para: "Lorem ipsum text  dummy",
+        name: "Tailwind, Sass, antD",
+        para: "Experienced",
         logo: sassTailwind,
       },
       {
         name: "Sql, MySql, Postgresql, MongoDB",
-        para: "Lorem ipsum text  dummy",
+        para: "Experienced",
         logo: backend,
       },
       {
         name: "GraphQL",
-        para: "Lorem ipsum text  dummy",
+        para: "Intermediate",
         logo: graphql,
       },
       {
         name: "git and Github",
-        para: "Lorem ipsum text  dummy",
+        para: "Experienced",
         logo: gitGithub,
       },
       
@@ -153,17 +163,17 @@ export const content = {
     subtitle: "WHAT I OFFER",
     service_content: [
       {
-        title: "Web Development",
+        title: "Software Development",
         para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
+        title: "UI/UX DESIGNING",
         para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: services_logo2,
       },
       {
-        title: "PhotoShop Editing",
+        title: "Teaching Programming",
         para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: services_logo3,
       },
@@ -175,16 +185,35 @@ export const content = {
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
+        title: "Math Magician",
         image: project1,
+        ViewSource: 'https://github.com/belaymit/math-magicians',
+        liveDemo: 'https://my-math-magician.onrender.com/'
       },
       {
-        title: "Social Media web",
-        image: project2,
+        title: "Book Store CMS",
+        image: bookStore,
+        ViewSource: 'https://github.com/belaymit/bookstore-react-redux',
+        liveDemo: 'https://bookstore-react-redux.onrender.com/'
       },
       {
-        title: "Creative Website",
-        image: project3,
+        title: "Space Travelers' Hub",
+        image: spaceTraveler,
+        ViewSource: 'https://github.com/belaymit/space-x-react-redux',
+        liveDemo: 'https://space-traveler-app-react-redux.onrender.com/'
+      },
+      
+      {
+        title: "Budget App RoR",
+        image: budgetApp,
+        ViewSource: 'https://github.com/belaymit/budget-app-ror',
+        liveDemo: 'https://belaymit.github.io/Capstone-module-2/dist/'
+      },
+      {
+        title: "Movie App",
+        image: MovieApp,
+        ViewSource: 'https://github.com/belaymit/Capstone-module-2',
+        liveDemo: 'https://budgte-app.onrender.com/'
       },
     ],
   },
