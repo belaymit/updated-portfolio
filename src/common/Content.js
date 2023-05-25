@@ -39,7 +39,7 @@ import Hireme_person2 from "../assets/Hireme/person1.png";
 
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
-import { BsInstagram } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
@@ -293,19 +293,19 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "2belamit@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:2belamit@gmail.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "(+251) 92 164 0816",
         icon: MdCall,
         link: "https://wa.me/1234567890",
       },
       {
-        text: "codeaprogram",
-        icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        text: "LinkedIn",
+        icon: BsLinkedin,
+        link: "https://www.linkedin.com/in/belay-bgwa/",
       },
     ],
   },
