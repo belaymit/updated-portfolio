@@ -23,6 +23,7 @@ import person_project from "../assets/Projects/person4.png";
 import budgetApp from "../assets/Projects/budget-app_reduced.jpg";
 import MovieApp from "../assets/Projects/MovieApp.png";
 import bookStore from "../assets/Projects/bookStore.jpeg";
+import carRental from "../assets/Projects/car_rental-app.jpg";
 
 
 
@@ -214,6 +215,12 @@ export const content = {
         image: MovieApp,
         ViewSource: 'https://github.com/belaymit/Capstone-module-2',
         liveDemo: 'https://budgte-app.onrender.com/'
+      },
+      {
+        title: "Car Rental App",
+        image: carRental,
+        ViewSource: 'https://github.com/belaymit/car_app_frontend',
+        liveDemo: 'https://carappcapstone.netlify.app/'
       },
     ],
   },
