@@ -1,7 +1,7 @@
 import Hero_person from "../assets/Hero/person3.png";
 
 import figma from "../assets/skills/figma.png";
-import sketch from "../assets/skills/sketch.png";
+import sketch from "../assets/skills/logo.svg";
 import redux from "../assets/skills/redux.png";
 import reactJs from "../assets/skills/react.png";
 import nodejs from "../assets/skills/node.png";
@@ -152,19 +152,19 @@ export const content = {
        ],
       },
       {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
+        name: "TypeScript",
+        para: "Experienced",
         logo: sketch,
         skillList:
         [
-          `Strong understanding of the Rails framework and its conventions`,
-          `Experience in developing web applications using Ruby on Rails`,
-          `Knowledge of MVC (Model-View-Controller) architecture`,
-          `Familiarity with relational databases like MySQL or PostgreSQL`,
-          `Understanding of RESTful APIs and their implementation in Rails`,
-          `Understanding of testing frameworks like RSpec or MiniTest`,
-          `Ability to write efficient and optimized Ruby code`,
-          `Knowledge of deploying Rails applications to production environments`
+          `Proficiency in TypeScript, including strong typing and type inference`,
+          `Experience in developing applications using TypeScript and leveraging its features`,
+          `Knowledge of TypeScript syntax, language constructs, and best practices`,
+          `Understanding of static typing and its benefits in catching errors during development`,
+          `Familiarity with TypeScript's support for modern JavaScript features and ECMAScript standards`,
+          `Ability to annotate and define types for variables, functions, and class members in TypeScript`,
+          `Experience with TypeScript modules and module resolution strategies`,
+          `Ability to leverage TypeScript's type system to improve code quality and maintainability`
         ],
       },
       {
@@ -203,7 +203,7 @@ export const content = {
         ],
       },
       {
-        name: "Web frontend",
+        name: "Web Frontend",
         para: "Experienced",
         logo: htmlCssJs,
         skillList:
@@ -263,18 +263,15 @@ export const content = {
         logo: graphql,
         skillList:
         [
-          `React Proficiency`,
-    `Extensive experience in developing robust and efficient 
-            applications using React's component-based architecture`,
-            `Strong capabilities in frontend development, 
-      leveraging React to create visually appealing and interactive user interfaces.`,
-      `Skilled in designing and implementing reusable and maintainable components,
-       ensuring efficient code structure and development workflows.`,
-        `Strong understanding of state management techniques and libraries such as
-       Redux or React Context API, facilitating seamless data flow and application scalability.`,
-        `Expertise in optimizing React applications for performance, employing techniques 
-      like code splitting, lazy loading, and performance profiling.`
-  ],
+          `Proficiency in GraphQL query language and schema definition`,
+          `Experience in building GraphQL APIs and integrating them with front-end applications`,
+          `Knowledge of GraphQL resolvers, mutations, and subscriptions`,
+          `Understanding of GraphQL schema stitching and schema composition`,
+          `Familiarity with GraphQL tooling and libraries like Apollo Client or Relay`,
+          `Ability to design efficient and optimized GraphQL schemas and queries`,
+          `Experience with GraphQL server implementations like Apollo Server or GraphQL Yoga`,
+          `Knowledge of GraphQL best practices and performance optimization techniques`,
+      ],
       },
       {
         name: "git and Github",
