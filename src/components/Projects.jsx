@@ -12,10 +12,10 @@ const Projects = () => {
     <section className="bg-bg_light_primary" id="projects">
     <div className="md:container px-5 pt-14 min-h-screen flex flex-col justify-between">
       <div>
-        <h2 className="title" data-aos="fade-down">
+        <h2 className="title md:text-center" data-aos="fade-down">
           {Projects.title}
         </h2>
-        <h4 className="subtitle" data-aos="fade-down">
+        <h4 className="subtitle md:text-center py-4" data-aos="fade-down">
           {Projects.subtitle}
         </h4>
         <br />

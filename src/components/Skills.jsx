@@ -8,13 +8,25 @@ const customStyles = {
     left: "50%",
     right: "auto",
     bottom: "auto",
+    backgroundColor: "#FFFFFF",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
-    maxWidth: "23rem",
-    width: "90%",
+    maxWidth: "34rem",
+    zIndex: 99,
   },
   overlay: {
     padding: "2rem",
+  },
+};
+
+const mediaQuery = "@media (max-width: 768px)";
+
+
+customStyles.content = {
+  ...customStyles.content,
+  [mediaQuery]: {
+    maxWidth: "20rem", 
+    width: "95%", 
   },
 };
 
@@ -35,7 +47,6 @@ const Skills = () => {
 
   return (
     <section className="min-h-fit bg-bg_light_primary" id="skills">
-    {/* modal */}
     <Modal
       isOpen={modalIsOpen}
       onRequestClose={closeModal}
@@ -47,16 +58,9 @@ const Skills = () => {
       </div>
       <br />
       <ul className="list-decimal px-4 font-Poppins sm:text-sm text-xs !leading-7">
-        <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
-        <li>Lorem ipsum dolor sit, ame.</li>
-        <li>Lorem ipsum dolor sit, amet consectetur</li>
-        <li>
-          Lorem ipsum dolor sit, amet dolor sit, amet consectetur adipisicing.
-        </li>
-        <li>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est
-          beatae quos rem.
-        </li>
+        {selectSkill?.skillList.map((item, index) => (
+         <li key={index}>{item}</li>
+        ))}
       </ul>
       <br />
       <div className="flex justify-end">
@@ -65,9 +69,7 @@ const Skills = () => {
         </button>
       </div>
     </Modal>
-
-    {/* content */}
-    <div className="md:container px-5  py-14">
+    <div className="md:container px-5 py-14">
       <h2 className="title md:text-center" data-aos="fade-down">
         {skills.title}
       </h2>

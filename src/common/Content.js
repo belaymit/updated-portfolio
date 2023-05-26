@@ -17,7 +17,7 @@ import services_logo1 from "../assets/services/logo1.png";
 import services_logo2 from "../assets/services/logo2.png";
 import services_logo3 from "../assets/services/logo3.png";
 
-import project1 from "../assets/Projects/img1.png";
+import project1 from "../assets/Projects/math-magician.jpg";
 import spaceTraveler from "../assets/Projects/space_traveler.png";
 import person_project from "../assets/Projects/person4.png";
 import budgetApp from "../assets/Projects/budget-app_reduced.jpg";
@@ -42,6 +42,7 @@ import { MdArrowForward, MdCall } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
+import { BsGithub } from "react-icons/bs";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
 import { SiCountingworkspro } from "react-icons/si";
@@ -99,61 +100,198 @@ export const content = {
         name: "React js",
         para: "Experienced",
         logo: reactJs,
+        skillList:
+              [
+                `Demonstrated expertise in React development, utilizing its powerful features and libraries to build dynamic web applications`,
+                `Extensive experience in developing robust and efficient applications using React's component-based architecture`,
+                `Strong capabilities in frontend development, leveraging React to create visually appealing and interactive user interfaces.`,
+                `Skilled in designing and implementing reusable and maintainable components, ensuring efficient code structure and development workflows.`,
+                `Strong understanding of state management techniques and libraries such as Redux or React Context API, facilitating seamless data flow and application scalability.`,
+                `Expertise in optimizing React applications for performance, employing techniques like code splitting, lazy loading, and performance profiling.`
+              ],
       },
       {
         name: "Figma",
         para: "Experienced",
         logo: figma,
+        skillList:
+              [
+                `I have a strong command of Figma as a design tool, utilizing its features, interface, and collaborative capabilities to create high-quality designs, wireframes, and prototypes`,
+                `I have a solid understanding of UI and UX design principles, allowing me to craft visually appealing and user-friendly designs that prioritize usability, accessibility, and interactivity`,
+                `I have the expertise to develop design systems and reusable components within Figma, ensuring consistency, efficiency, and scalability across projects by establishing design guidelines and organizing design assets`,
+              ` I excel in using Figma's prototyping features to create interactive prototypes that showcase design interactions, animations, and transitions, resulting in enhanced user experiences`,
+        ],
       },
       {
         name: "Node js",
         para: "Experienced",
         logo: nodejs,
+        skillList:
+        [
+         `I am experienced in designing and implementing RESTful APIs using Node.js, Express.js, and other related frameworks. I can create robust APIs that communicate with databases, handle authentication, and provide data to client applications`,
+        `I am skilled in building server-side applications using Node.js, including handling HTTP requests, implementing business logic, managing sessions, and integrating with databases and third-party services`,
+        `I am proficient in utilizing asynchronous programming techniques in Node.js, such as callbacks, promises, and async/await, to handle concurrent operations and ensure optimal performance`,
+        `I have experience working with databases like MongoDB, MySQL, or PostgreSQL, and can effectively integrate them into Node.js applications using libraries like Mongoose or Sequelize.`,
+  ],
       },
       {
         name: "Redux",
         para: "Experienced",
         logo: redux,
+        skillList:
+        [
+          `Experience in setting up and configuring Redux in a React application`,
+          `Proficiency in creating Redux actions, reducers, and selectors`,
+          `Understanding of Redux middleware and its implementation`,
+          `Knowledge of handling asynchronous actions using Redux Thunk or Redux Saga`,
+          `Ability to manage the application state using Redux store`,
+          `Experience in handling complex state management scenarios using Redux`,
+          `Understanding of Redux best practices and design patterns`,
+          `Knowledge of combining Redux with React Router for handling navigation and routing`,
+          `Familiarity with integrating Redux DevTools for debugging and monitoring state changes.`
+       ],
       },
       {
         name: "Sketch",
         para: "Lorem ipsum text  dummy",
         logo: sketch,
+        skillList:
+        [
+          `Strong understanding of the Rails framework and its conventions`,
+          `Experience in developing web applications using Ruby on Rails`,
+          `Knowledge of MVC (Model-View-Controller) architecture`,
+          `Familiarity with relational databases like MySQL or PostgreSQL`,
+          `Understanding of RESTful APIs and their implementation in Rails`,
+          `Understanding of testing frameworks like RSpec or MiniTest`,
+          `Ability to write efficient and optimized Ruby code`,
+          `Knowledge of deploying Rails applications to production environments`
+        ],
       },
       {
         name: "Python",
         para: "Experienced",
         logo: python,
+        skillList:
+        [
+          `React Proficiency`,
+          `Extensive experience in developing robust and efficient 
+            applications using React's component-based architecture`,
+            `Strong capabilities in frontend development, 
+      leveraging React to create visually appealing and interactive user interfaces.`,
+      `Skilled in designing and implementing reusable and maintainable components,
+       ensuring efficient code structure and development workflows.`,
+        `Strong understanding of state management techniques and libraries such as
+       Redux or React Context API, facilitating seamless data flow and application scalability.`,
+        `Expertise in optimizing React applications for performance, employing techniques 
+      like code splitting, lazy loading, and performance profiling.`
+  ],
       },
       {
         name: "Ruby on Rails",
         para: "Experienced",
         logo: ror,
+        skillList:
+        [
+          `Strong understanding of the Rails framework and its conventions`,
+          `Experience in developing web applications using Ruby on Rails`,
+          `Knowledge of MVC (Model-View-Controller) architecture`,
+          `Familiarity with relational databases like MySQL or PostgreSQL`,
+          `Understanding of RESTful APIs and their implementation in Rails`,
+          `Understanding of testing frameworks like RSpec or MiniTest`,
+          `Ability to write efficient and optimized Ruby code`,
+          `Knowledge of deploying Rails applications to production environments`
+        ],
       },
       {
         name: "Web frontend",
         para: "Experienced",
         logo: htmlCssJs,
+        skillList:
+        [
+            'Proficiency in HTML, CSS, and JavaScript',
+            'Experience with front-end frameworks like React, Angular, or Vue.js',
+            'Knowledge of responsive web design principles and techniques',
+            'Familiarity with CSS preprocessors like Sass or LESS',
+            'Ability to create and manipulate the DOM using JavaScript',
+            'Understanding of web accessibility standards and best practices',
+            'Experience with version control systems like Git',
+            'Knowledge of UI/UX principles and ability to create intuitive user interfaces',
+            'Familiarity with front-end build tools like Webpack or Gulp',
+            'Understanding of cross-browser compatibility and performance optimization',
+            'Ability to write clean, modular, and reusable code',
+            'Understanding of web security principles and common vulnerabilities',
+        ],
       },
       {
         name: "Tailwind, Sass, antD",
         para: "Experienced",
         logo: sassTailwind,
+        skillList:
+              [
+              `Proficiency in using Tailwind CSS utility classes`,
+              `Experience in building responsive and mobile-first web interfaces with Tailwind CSS`,
+              `Proficiency in using Sass (Syntactically Awesome Style Sheets)`,
+              `Experience in writing modular and maintainable CSS code with Sass`,
+              `Knowledge of Sass extensions and libraries for advanced functionality`,
+              `Proficiency in using Ant Design (antd) UI library`,
+              `Understanding of antd grid system and responsive design`,
+              `Experience in building user interfaces with antd components and layouts`,
+              `Ability to create custom utility classes and extend Tailwind CSS with plugins`,
+              `Familiarity with the utility classes for layout, typography, spacing, and colors in Tailwind`,
+        ],
       },
       {
         name: "Sql, MySql, Postgresql, MongoDB",
         para: "Experienced",
         logo: backend,
+        skillList:
+        [
+          `Proficiency in SQL (Structured Query Language)`,
+          `Experience in writing complex SQL queries for data retrieval and manipulation`,
+          `Proficiency in MySQL database management system`,
+          `Experience in designing and managing MySQL databases`,
+          `Proficiency in PostgreSQL database management system`,
+          `Experience in designing and managing PostgreSQL databases`,
+          `Proficiency in MongoDB NoSQL database`,
+          `Ability to perform CRUD operations (Create, Read, Update, Delete) in MongoDB`,
+          `Ability to create and manage database tables, views, and sequences`,
+        ],
       },
       {
         name: "GraphQL",
         para: "Intermediate",
         logo: graphql,
+        skillList:
+        [
+          `React Proficiency`,
+    `Extensive experience in developing robust and efficient 
+            applications using React's component-based architecture`,
+            `Strong capabilities in frontend development, 
+      leveraging React to create visually appealing and interactive user interfaces.`,
+      `Skilled in designing and implementing reusable and maintainable components,
+       ensuring efficient code structure and development workflows.`,
+        `Strong understanding of state management techniques and libraries such as
+       Redux or React Context API, facilitating seamless data flow and application scalability.`,
+        `Expertise in optimizing React applications for performance, employing techniques 
+      like code splitting, lazy loading, and performance profiling.`
+  ],
       },
       {
         name: "git and Github",
         para: "Experienced",
         logo: gitGithub,
+        skillList:
+              [
+              `Proficiency in using Git for version control`,
+              'Experience with Git workflows such as Gitflow or feature branching',
+              'Knowledge of branching, merging, and resolving conflicts in Git',
+              'Familiarity with GitHub and understanding of its features',
+              'Ability to collaborate with others using GitHub for code sharing and reviewing',
+              'Understanding of pull requests, code reviews, and issue tracking in GitHub',
+              'Knowledge of Git commands and their usage (e.g., commit, push, pull, clone)',
+              'Experience with Git hosting services like Bitbucket or GitLab',
+              'Understanding of Git best practices and conventions',
+        ],
       },
       
     ],
@@ -165,17 +303,22 @@ export const content = {
     service_content: [
       {
         title: "Software Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo1,
+        para: ` I provide comprehensive software development services tailored to meet your unique business requirements. 
+        From conceptualization to deployment, our team of skilled developers ensures the delivery of robust, scalable, 
+        and user-friendly solutions that drive efficiency and accelerate your digital transformation.`,
+        logo: services_logo1
       },
       {
         title: "UI/UX DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: `I have experience in UI/UX design services that focus on creating intuitive and visually appealing user interfaces. 
+        Our team combines creativity, user-centric design principles, and industry best practices to deliver engaging and seamless user experiences that enhance customer satisfaction and drive business growth.`,
         logo: services_logo2,
       },
       {
-        title: "Teaching Programming",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Providing Web Development Courses",
+        para: `I offer engaging and informative courses that empower students to master the art of building websites and web applications.
+                 My teaching approach focuses on practical skills, problem-solving, and fostering a deep understanding of web development concepts.
+                  I strive to create a supportive and interactive learning environment where students can unleash their creativity and become confident web developers.`,
         logo: services_logo3,
       },
     ],
@@ -226,7 +369,7 @@ export const content = {
   },
   Testimonials: {
     title: "Testimonials",
-    subtitle: "MY CLIENT REVIEWS",
+    subtitle: "MY CO-WORKERS REVIEWS",
     testimonials_content: [
       {
         review:
@@ -285,7 +428,13 @@ export const content = {
     subtitle: "FOR YOUR PROJECTS",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+    para:  `I bring extensive experience in React, Redux, and Ruby on Rails development to the table. 
+          With React, I have a deep understanding of building dynamic and interactive user interfaces using reusable components, 
+          managing state with Redux for scalable and maintainable applications, and leveraging React Router for efficient navigation. 
+          In addition, my expertise in Ruby on Rails allows me to rapidly develop robust and secure web applications, following the 
+          MVC architectural pattern and utilizing the conventions of Rails for streamlined development. I have a strong track record of 
+          successfully delivering projects using these technologies, and my ability to collaborate effectively with cross-functional teams ensures smooth project execution. 
+          By hiring me, you can benefit from my proficiency in these frameworks and my commitment to delivering high-quality, efficient, and user-friendly web applications`,
     btnText: "Hire Me",
   },
   Contact: {
@@ -307,9 +456,15 @@ export const content = {
         icon: BsLinkedin,
         link: "https://www.linkedin.com/in/belay-bgwa/",
       },
+      {
+        text: "GitHub",
+        icon: BsGithub,
+        link: "https://github.com/belaymit",
+      },
     ],
   },
   Footer: {
     text: "All © Copy Right Reserved 2022",
   },
+
 };
