@@ -45,10 +45,10 @@ const Projects = () => {
               <div className="flex flex-col gap-1 mt-2">
                 <h5 className="font-bold font-Poppins">{content.title}</h5>
                 <button className="font-sm text-white self-end bg-slate-400 py-1 px-4 rounded-lg transition ease-in-out delay-150 hover:bg-slate-500">
-                  <a href={content.link}>View Demo</a>
+                  <a href={content.liveDemo} target="_blank" rel="noopener noreferrer">View Demo</a>
                 </button>
                 <button className="font-sm text-white self-end bg-blue-500 py-1 px-3 rounded-lg transition ease-in-out delay-150 hover:bg-blue-600">
-                  <a href={content.link}>View Source</a>
+                  <a href={content.ViewSource} target="_blank" rel="noopener noreferrer">View Source</a>
                 </button>
               </div>
             </SwiperSlide>

@@ -12,7 +12,7 @@ This is my updated personal portfolio that I created using reactjs and tailwind.
 
 ## Live Demo
 
-[Live Demo Link](https://belay-portfolio.netlify.app)
+[Live Demo Link](https://belay-portfolio.netlify.app/)
 
 
 ## Getting Started
