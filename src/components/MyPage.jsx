@@ -27,7 +27,7 @@ const MyPage = () => {
           />
           <div
             data-aos="fade-left"
-            className="border-2 border-dark_primary max-w-[570px]
+            className="border-2 border-dark_primary max-w-[650px]
            p-4 shadow-sm rounded-xl rounded-br-[4rem] md:min-w-[20rem] mt-0 md:mt-[-80px]"
           >
             <p className="leading-7">{Hireme.para}</p>
