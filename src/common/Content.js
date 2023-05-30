@@ -24,6 +24,8 @@ import budgetApp from "../assets/Projects/budget-app_reduced.jpg";
 import MovieApp from "../assets/Projects/MovieApp.png";
 import bookStore from "../assets/Projects/bookStore.jpeg";
 import carRental from "../assets/Projects/car_rental-app.jpg";
+import toDoList from "../assets/Projects/ToDoList.jpg";
+import awesomeBooks from "../assets/Projects/awesome-books.jpg";
 
 
 
@@ -328,18 +330,40 @@ export const content = {
       {
         title: "Math Magician",
         image: project1,
+        desc: 'Is an educational project that allows users to use simple mathematical calculator, view list of famous quotes',
+        tecStack: 'ReactJS, CSS3',
         ViewSource: 'https://github.com/belaymit/math-magicians',
         liveDemo: 'https://my-math-magician.onrender.com/'
       },
       {
+        title: "To Do List",
+        image: toDoList,
+        desc: 'Is an educational project that allows users to use to add their daily tasks, view lists and delete completed task',
+        tecStack: 'JavaScript, HTML5, CSS3',
+        ViewSource: 'https://github.com/belaymit/ES6-To-do-List',
+        liveDemo: 'https://belaymit.github.io/ES6-To-do-List/dist/'
+      },
+      {
+        title: "Awesome Books",
+        image: awesomeBooks,
+        desc: 'Is a web app that allows users to add books and its details, view list of books and delete books',
+        tecStack: 'JavaScript, HTML5, CSS3',
+        ViewSource: 'https://github.com/belaymit/Awesome-books--ES6',
+        liveDemo: 'https://belaymit.github.io/Awesome-books--ES6/'
+      },
+      {
         title: "Book Store CMS",
         image: bookStore,
+        desc: 'Users of this web application can add or remove books and view the details of the books that are currently accessible.',
+        tecStack: 'ReactJS, Redux, SASS',
         ViewSource: 'https://github.com/belaymit/bookstore-react-redux',
         liveDemo: 'https://bookstore-react-redux.onrender.com/'
       },
       {
         title: "Space Travelers' Hub",
         image: spaceTraveler,
+        desc: 'Users can reserve rockets through this website, sign up for specific space missions, and modify or cancel their reservations. They can also keep track of the missions they have joined and reserved rockets.',
+        tecStack: 'ReactJS, Redux toolkit, SASS',
         ViewSource: 'https://github.com/belaymit/space-x-react-redux',
         liveDemo: 'https://space-traveler-app-react-redux.onrender.com/'
       },
@@ -347,18 +371,24 @@ export const content = {
       {
         title: "Budget App RoR",
         image: budgetApp,
+        desc: 'A web app that allows users to track their transactions, add items and delete transactions',
+        tecStack: 'Ruby on Rails, Tailwind',
         ViewSource: 'https://github.com/belaymit/budget-app-ror',
         liveDemo: 'https://belaymit.github.io/Capstone-module-2/dist/'
       },
       {
         title: "Movie App",
         image: MovieApp,
+        desc: 'Is an app that allows users to view list of movies, like, comment and reserve movies',
+        tecStack: 'JavaScript, SASS, HTML5',
         ViewSource: 'https://github.com/belaymit/Capstone-module-2',
         liveDemo: 'https://budgte-app.onrender.com/'
       },
       {
         title: "Car Rental App",
         image: carRental,
+        desc: 'A web app that allows users to reserve car for rent, view car details. It has admin privilege in which admin can add and delete car',
+        tecStack: 'ReactJS, Redux toolkit, ruby on rails, CSS3',
         ViewSource: 'https://github.com/belaymit/car_app_frontend',
         liveDemo: 'https://carappcapstone.netlify.app/'
       },
