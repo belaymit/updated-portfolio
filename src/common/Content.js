@@ -331,8 +331,8 @@ export const content = {
       {
         title: "Crypto App",
         image: cryptoApp,
-        desc: `An app that enables users to seamlessly explore, access detailed information, and search for their preferred cryptocurrencies. With a visually appealing interface and efficient state management, the app provides a comprehensive solution for cryptocurrency enthusiasts, empowering them to stay updated and make informed decisions in the dynamic market`,
-        tecStack: 'ReactJS, Redux, toolkit, SASS',
+        desc: `An app that enables users to seamlessly explore, access detailed information, and search for their preferred cryptocurrencies.`,
+        tecStack: 'React, Redux toolkit, SASS',
         ViewSource: 'https://github.com/belaymit/react-crypto-app',
         liveDemo: 'https://belaymit.github.io/react-crypto-app/'
       },
