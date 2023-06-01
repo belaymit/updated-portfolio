@@ -44,9 +44,9 @@ const Projects = () => {
               <img src={content.image} alt="..." className="w-full" />
               <div className="flex flex-col gap-1 mt-2">
                 <h5 className="font-bold font-Poppins">{content.title}</h5>
-                <div className="flex gap-2">
+                <div className="flex gap-1">
                 <h5 className="text-md font-bold">Description: </h5>
-                <p className="text-sm justify-normal md:text-center">{content.desc}</p>
+                <p className="text-sm">{content.desc}</p>
                 </div>
                 <div className="flex gap-2">
                   <h5 className="font-bold">Built with:</h5>
