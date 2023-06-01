@@ -46,10 +46,10 @@ const Projects = () => {
                 <h5 className="font-bold font-Poppins">{content.title}</h5>
                 <div className="flex gap-2">
                 <h5 className="text-md font-bold">Description: </h5>
-                <p className="text-sm text-center">{content.desc}</p>
+                <p className="text-sm justify-normal md:text-center">{content.desc}</p>
                 </div>
                 <div className="flex gap-2">
-                  <h5 className="font-bold">Tech Stack:</h5>
+                  <h5 className="font-bold">Built with:</h5>
                   <p className="text-start">{content.tecStack}</p>
                 </div>
                 <button className="font-sm text-white self-end bg-slate-400 py-1 px-4 rounded-lg transition ease-in-out delay-150 hover:bg-slate-500">

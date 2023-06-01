@@ -19,6 +19,7 @@ import services_logo3 from "../assets/services/logo3.png";
 
 import project1 from "../assets/Projects/math-magician.jpg";
 import spaceTraveler from "../assets/Projects/space_traveler.png";
+import cryptoApp from "../assets/Projects/crypto-app.jpg";
 import person_project from "../assets/Projects/person4.png";
 import budgetApp from "../assets/Projects/budget-app_reduced.jpg";
 import MovieApp from "../assets/Projects/MovieApp.png";
@@ -327,6 +328,14 @@ export const content = {
     subtitle: "MY CREATION",
     image: person_project,
     project_content: [
+      {
+        title: "Crypto App",
+        image: cryptoApp,
+        desc: `An app that enables users to seamlessly explore, access detailed information, and search for their preferred cryptocurrencies. With a visually appealing interface and efficient state management, the app provides a comprehensive solution for cryptocurrency enthusiasts, empowering them to stay updated and make informed decisions in the dynamic market`,
+        tecStack: 'ReactJS, Redux, toolkit, SASS',
+        ViewSource: 'https://github.com/belaymit/react-crypto-app',
+        liveDemo: 'https://belaymit.github.io/react-crypto-app/'
+      },
       {
         title: "Math Magician",
         image: project1,
