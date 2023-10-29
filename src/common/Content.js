@@ -1,4 +1,4 @@
-import Hero_person from "../assets/Hero/person3.png";
+import Hero_person from "../assets/Hero/belay.png";
 
 import figma from "../assets/skills/figma.png";
 import sketch from "../assets/skills/logo.svg";
@@ -20,7 +20,7 @@ import services_logo3 from "../assets/services/logo3.png";
 import project1 from "../assets/Projects/math-magician.jpg";
 import spaceTraveler from "../assets/Projects/space_traveler.png";
 import cryptoApp from "../assets/Projects/crypto-app.jpg";
-import person_project from "../assets/Projects/person4.png";
+import person_project from "../assets/Hero/belay.png";
 import budgetApp from "../assets/Projects/budget-app_reduced.jpg";
 import MovieApp from "../assets/Projects/MovieApp.png";
 import bookStore from "../assets/Projects/bookStore.jpeg";
@@ -36,8 +36,9 @@ import Giovanni from '../assets/testimonials/Giovanni.jpeg'
 import Ahad from '../assets/testimonials/Ahad.jpeg'
 import Iqbal from '../assets/testimonials/Iqbal.jpeg'
 import Birhanu from '../assets/testimonials/Birhanu.jpeg'
+import Million from '../assets/testimonials/million.png'
 
-import Hireme_person from "../assets/Hireme/person2.png";
+import Hireme_person from "../assets/Hero/belay.png";
 import Hireme_person2 from "../assets/Hireme/person1.png";
 
 import { GrMail } from "react-icons/gr";
@@ -407,6 +408,18 @@ export const content = {
     title: "Testimonials",
     subtitle: "MY CO-WORKERS REVIEWS",
     testimonials_content: [
+      {
+        review:
+          `"I have had the privilege of working alongside Belay as a Front-end developer at 10 Academy. Belay is not only an accomplished front-end developer but also a true master of UI and UX design. 
+          His passion for creating seamless and visually appealing user experiences is evident in every project he undertakes. He combines technical expertise with a keen eye for design, producing results that consistently exceed expectations.
+           What truly sets Belay apart is his unwavering dedication and strong work ethic. He consistently goes the extra mile to ensure project success, never shying away from a challenge, and his ability to remain focused and deliver under tight deadlines is truly remarkable.
+            Moreover, Belay is a creative thinker who consistently brings innovative ideas to the table. His insights and suggestions have proven invaluable in driving the success of our projects at 10 Academy. If you're looking for a front-end developer with an exceptional blend of technical skills, design sensibilities, and a commitment to delivering quality results, Belay is the perfect candidate. 
+            I am confident that he will be a valuable asset to any team or project, and I wholeheartedly recommend him as an exceptional professional.”`,
+        img: Million,
+        name: "Million Ayalew",
+        title: "Front-end Developer",
+        company: "10 Academy",
+      },
       {
         review:
           `“I had the pleasure of studying alongside Belay in several courses at Microverse, an online tech code academy, 

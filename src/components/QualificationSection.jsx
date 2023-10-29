@@ -62,6 +62,22 @@ const QualificationSection = ({ toggle }) => (
     <div className={toggle === 2 ? 'qualification-content qualification-content-active'
       : 'qualification-content'}
     >
+       <div className="qualification-data">
+        <div>
+          <h3 className="qualification-title">10 Academy</h3>
+          <span className="qualification-subtitle">
+            Front-end Developer
+          </span>
+          <div className="qualification-calendar">
+            <i className="uil uil-calendar-alt" />
+            June 2023-Present
+          </div>
+        </div>
+        <div>
+          <span className="qualification-rounder" />
+          <span className="qualification-line" />
+        </div>
+      </div>
       <div className="qualification-data">
         <div>
           <h3 className="qualification-title">Microverse</h3>

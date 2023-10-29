@@ -30,9 +30,9 @@ const MyPage = () => {
             className="border-2 border-dark_primary max-w-[650px]
            p-4 shadow-sm rounded-xl rounded-br-[4rem] md:min-w-[20rem] mt-0 md:mt-[-80px]"
           >
-            <p className="leading-7">{Hireme.para}</p>
+            <p className="p-2 leading-7">{Hireme.para}</p>
             <br />
-            <button className="btn bg-dark_primary text-white">
+            <button className="p-2 btn bg-dark_primary text-white">
               {Hireme.btnText}
             </button>
           </div>
